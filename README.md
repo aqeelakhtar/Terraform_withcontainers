@@ -9,10 +9,10 @@ aws ecr get-login-password --region us-west-1 | docker login --username AWS --pa
 cd app/
 
 
-docker build -t 600735812827.dkr.ecr.us-west-1.amazonaws.com/django-app:latest . 
+docker build -t 262081134488.dkr.ecr.us-west-1.amazonaws.com/django-app:latest . 
 
 
-docker push 600735812827.dkr.ecr.us-west-1.amazonaws.com/django-app:latest
+docker push 262081134488.dkr.ecr.us-west-1.amazonaws.com/django-app:latest
 
 Change the docker_image_url_django in VARIABLES.TF file with your current repo name 
 
